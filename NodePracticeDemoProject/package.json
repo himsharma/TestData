@@ -1,0 +1,20 @@
+{
+  "name": "NodePracticeDemoProject",
+  "version": "0.0.0",
+  "description": "NodePracticeDemoProject",
+  "main": "server.js",
+  "author": {
+    "name": "h.h.sharma",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^3.4.8",
+    "hogan-express": "^0.5.2",
+    "less-middleware": "^0.1.15",
+    "mime": "^1.2.11",
+    "mongoose": "^3.8.21",
+    "node-array": "0.0.7",
+    "passport-local-mongoose": "^0.2.6"
+  }
+}

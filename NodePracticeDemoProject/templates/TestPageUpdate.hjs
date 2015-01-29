@@ -1,0 +1,31 @@
+<form class="form-horizontal" role="form" action="/TestPage" method="post" >
+  <h2 class="form-signin-heading">TestPageupdate</h2>
+  <div class="form-group">
+    <div class="col-sm-4">
+      <input type="text" name="test1" placeholder="test1" class="form-control" id="test1">
+            </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-4">
+      <input type="text" name="test2" placeholder="test2" class="form-control" id="test2">
+            </div>
+  </div>
+  <button type="submit" class="btn btn-default">Update</button>&nbsp;<a href="/">
+
+    <button type="button" class="btn btn-primary">Cancel</button>
+  </a>
+
+  <div class="form-group">
+    <div class="col-sm-4">
+      <h3>Test 1 Value: {{ Test1 }}</h3>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-4">
+      <h3>Test 2 Value: {{ Test2 }}</h3>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-default">update</button>&nbsp;<a href="/">
+  
+</form>
+
